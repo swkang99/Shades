@@ -1,0 +1,69 @@
+HOMI Unity Basic Ver1.0 (14.04.03)
+--------------------------------
+        공통사항
+
+* 변수를 제외한 무엇이든 생성 시 첫 글자는 영어 대문자 하기
+* 두가지 이상 단어가 들어갈 시에는 단어 시작마다 대문자를 사용
+* 아래와 같이 구성(예시)
+--------------------------------
+ - Monster
+ - MonsterDie
+
+
+--------------------------------
+        Script 구성
+
+* 모든 변수, 클래스 윗 줄에는 summary를 한다. (간단한 설명 작성)
+* 변수나 클래스 윗 줄에 커서를 위치시키고 키보드 / 키를 3번 누르면 자동 생성
+* 소스를 오브젝트에 포함 시킬 경우 클래스 윗줄 summary에
+  오브젝트의 이름을 작성한다.
+--------------------------------
+/// <summary>
+/// 로고 씬 관리
+/// 위치 :  SceneMng
+/// </summary>
+
+public class HLogoScene : HState 
+{
+    /// <summary>
+    /// 현재 씬이 무엇인지 나타냄
+    /// </summary>
+    UILabel InfoLabel = null;
+
+    public override void Enter(params object[] oParams)
+    {
+
+
+--------------------------------
+        변수 선언
+
+* 아래와 같이 선언
+* 예시로 모든 변수 이름을 Info로 통일 하겠음
+--------------------------------
+
+//!< 기본
+int				nInfo;
+float			fInfo;
+char			cInfo;
+string			sInfo;
+
+
+List			InfoList;
+Dictionary		InfoDic;
+
+
+//!< 유니티 관련
+GameObject		InfoGame;
+Vector3			InfoVec3;
+Transform		InfoTrans;
+Animation		InfoAni;
+Texture2D		InfoTex2D;
+Text			InfoText;
+
+
+//!< 패키지 관련
+UILabel			InfoLabel;
+UISprite		InfoSprite;
+UIScrollBar		InfoScrollBar;
+
+BoneAnimation	InfoBoneAni;
