@@ -76,7 +76,7 @@ public class HGameMng : HSingleton<HGameMng> {
     public Vector4 ScoreColorVec4; // 라벨의 색 정보를 담는 변수
     public float fScoreEftSpeed = 2.7f; // 이펙트의 속도
     public int nOnriginalFontSize; // 라벨 폰트의 원래 사이즈
-    public int nPlusFont = 3; // 라벨의 사이즈 증가값
+    public int nPlusFont = 1; // 라벨의 사이즈 증가값
     public bool bScoreEftSwitch = false;
 
     public AudioSource DownTileAudio; // 타일을 내려놓을 때의 효과음
