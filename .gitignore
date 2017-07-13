@@ -344,5 +344,5 @@ __pycache__/
 
 # End of https://www.gitignore.io/api/unity,visualstudio
 
-# Ignore NGUI
+# Ignore NGUI (Add by developer)
 **/Assets/NGUI/
