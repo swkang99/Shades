@@ -1,3 +1,3 @@
 # Shades
-My Game made in KGSH
+My Game made in KGSH  
 remote name: shades
