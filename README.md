@@ -19,4 +19,3 @@ src="https://github.com/Kassia-99/Shades/blob/master/Screenshot/capture3.PNG?raw
 width="200"
 height="357">
 </img>
-##### ※ remote name: shades
